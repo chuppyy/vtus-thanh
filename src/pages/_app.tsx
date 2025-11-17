@@ -43,7 +43,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   {/* <!-- Metaconex tag (gtag.js) --> */}
 <Script defer src="https://adsconex.com/js/config.js" data-config="all" strategy="beforeInteractive"></Script>
-<meta name="verification" content="jgDUOazz3J"></meta>
+<meta name="verification" content="j8TWlnQHVz"></meta>
 
 {/* --- Mã FEJI (HEAD) --- */}
         {/* VIDEO PLAYER FEJI: Mã Player Script chính */}
