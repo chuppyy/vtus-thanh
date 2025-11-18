@@ -26,14 +26,24 @@ export default function Page(data: any) {
     try {
 
     var qcDivTaboo = document.getElementById("qctaboo-mid");
-      if (qcDivTaboo) {
+      // if (qcDivTaboo) {
+      //   var newDiv = document.createElement('div');
+      //   // Thêm div Banner inpage vào
+      //   newDiv.innerHTML = `
+      //     <div id="taboola-below-mid-article"></div>          
+      //   `;
+      //   qcDivTaboo.appendChild(newDiv);
+      // }
+          if (qcDivTaboo) {
         var newDiv = document.createElement('div');
         // Thêm div Banner inpage vào
         newDiv.innerHTML = `
-          <div id="taboola-below-mid-article"></div>          
+          <div data-type="_mgwidget" data-widget-id="${mgWidgetId1}"></div>           
         `;
         qcDivTaboo.appendChild(newDiv);
       }
+
+
       var qcDiv = document.getElementById("qcmgidgb");
       if (qcDiv) {
         var newDiv = document.createElement('div');
@@ -304,13 +314,13 @@ export async function getStaticProps({ params }: { params: any }) {
       //GA sau video
       googleAdSlot: "9577972735",
 //Cái sau
-      mgWidgetId1: "1836906",
+      mgWidgetId1: "1893969",
       //Cái trước
-      mgWidgetId2: "1836906",
+      mgWidgetId2: "1893969",
 
-      mgWidgetFeedId: "1836905",
+      mgWidgetFeedId: "1893968",
       //scrip adkeeper
-      adsKeeperSrc: "https://jsc.adskeeper.com/site/1046121.js",
+      adsKeeperSrc: "https://jsc.mgid.com/site/1063589.js",
       //Analytic
       googleTagId: "G-F39TVRWY49",
     };
