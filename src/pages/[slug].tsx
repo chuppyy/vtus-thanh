@@ -43,7 +43,6 @@ export default function Page(data: any) {
         qcDivTaboo.appendChild(newDiv);
       }
 
-
       var qcDiv = document.getElementById("qcmgidgb");
       if (qcDiv) {
         var newDiv = document.createElement('div');
